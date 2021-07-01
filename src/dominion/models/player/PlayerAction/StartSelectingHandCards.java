@@ -36,6 +36,7 @@ public class StartSelectingHandCards extends PlayerAction {
                 GameManager.sendEvent(new DoneSelectingHandCardEvent(player.getId(), cardId));
             });
             player.enableLeftButton(false);
+
             if (player.getExactSelectedCards() > 0) {
                 player.enableRightButton(player.getSelectedCardsSize() == player.getExactSelectedCards());
             }
