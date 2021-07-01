@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="120.0" style="-fx-border-color: Black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane id="remain_box" layoutX="7.0" layoutY="7.0" prefHeight="25.0" prefWidth="25.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1c1c1" height="25.0" stroke="#00000080" strokeType="INSIDE" strokeWidth="0.5" width="25.0" />
+            <Label id="remain" text="10" />
+         </children>
+      </StackPane>
+      <StackPane id="cost_box" layoutX="5.0" layoutY="161.0" prefHeight="25.0" prefWidth="25.0">
+         <children>
+            <Circle fill="#fae77d" radius="12.0" stroke="#00000033" strokeType="INSIDE" strokeWidth="0.5" />
+            <Label id="cost" alignment="CENTER" prefHeight="16.0" prefWidth="17.0" text="10" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <Label id="types" alignment="CENTER" layoutX="3.0" layoutY="165.0" prefHeight="17.0" prefWidth="120.0" text="錢幣卡" />
+      <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="81.0" prefHeight="29.0" prefWidth="120.0" text="銅幣" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <StackPane id="value_box" layoutX="89.0" layoutY="5.0" prefHeight="25.0" prefWidth="25.0">
+         <children>
+            <Circle fill="#fae77d" radius="12.0" stroke="#00000033" strokeType="INSIDE" strokeWidth="0.5" />
+            <Label id="value" alignment="CENTER" prefHeight="16.0" prefWidth="17.0" text="10" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane id="num_selected_box" layoutX="43.0" layoutY="78.0" prefHeight="25.0" prefWidth="25.0">
+         <children>
+            <Circle fill="#ff6347" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.5" />
+            <Label id="num_selected" alignment="CENTER" prefHeight="16.0" prefWidth="17.0" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</Pane>
